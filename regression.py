@@ -72,7 +72,7 @@ def main (split_list:[list])->[list]:
     x_range=round(x_split[-1])
     x = np.array(range(x_range+5))
 
-    #Y Equation
+    #Y Formula Equation
     y=m*x + b
 
     print("\nRegression Formula is: y = "+ str(round(m,2)) +"x + " +str(round(b,2)))
