@@ -68,8 +68,7 @@ def main (split_list:[list])->[list]:
     #print("B (Y-Intercept) is: ", b)
 
     #X Axis Range
-    sorted(x_split)
-    x_range=x_split[-1]
+    x_range=sorted(x_split)[-1]
     x_range=round(x_range)
     x = np.array(range(x_range+5))
 
