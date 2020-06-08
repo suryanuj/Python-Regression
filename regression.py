@@ -1,3 +1,4 @@
+#This program was created by Suryanuj Gupta. He created to practice python coding and how it can be used in statistics. 
 import statistics
 import matplotlib.pyplot as plt
 import numpy as np
